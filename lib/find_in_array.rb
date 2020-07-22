@@ -1,5 +1,6 @@
 def find_element_index(array, value_to_find)
   count = 0
+  found_value_index = nil
   while count < array.length do
     puts array[count] == value_to_find
     found_value_index = couny
@@ -7,4 +8,3 @@ def find_element_index(array, value_to_find)
   end
   # Add your solution here
 end
- 
